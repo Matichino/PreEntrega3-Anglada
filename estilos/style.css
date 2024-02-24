@@ -105,12 +105,7 @@ h1 {
     width: 400px;
     height: 400px;
 }
-.carrusel{
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: scroll;
-    margin-bottom: 300px;
-}
+
 .elemento {
     flex: 1 0 auto;
     margin: 0 30px;
@@ -118,7 +113,16 @@ h1 {
     height: 200px;
 }
 .redes{
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: center;
+    text-align: center;
+    line-height: 20px;
+    font-size: 30px;
+    margin: 10px;
     color: white;
+    justify-content: center;
+    
 }
 .content2{
     display: flex;
@@ -135,5 +139,10 @@ h1 {
 .respuesta{
     width: auto;
     height: auto;
+
+}
+.terminos{
+font-family:'Open Sans', sans-serif;
+font-size: 9px;
 
 }
