@@ -102,8 +102,8 @@ h1 {
 }
 .video
 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 .elemento {
@@ -144,5 +144,23 @@ h1 {
 .terminos{
 font-family:'Open Sans', sans-serif;
 font-size: 9px;
+color: rgb(14, 105, 180);
 
+}
+.card-body{
+    background-image: url(../assets/img/fondo2.jpg);
+    background-size: cover;
+    
+}
+.card-text{
+    font-family:'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    
+}
+.card-title{
+    font-family: 'Playfair Display', serif;
+    color: rgb(253, 253, 253);
+}
+.text-muted {
+    color: rgb(255, 255, 255);
 }
