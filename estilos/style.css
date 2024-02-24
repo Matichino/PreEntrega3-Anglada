@@ -76,8 +76,8 @@ h1 {
 
 .titulo2{
     font-family: 'Open Sans', sans-serif;
-    margin-top: 50px;
-    text-align: left;
+    margin-top: 100px;
+    text-align: center;
 }
 .content{
     display: flex;
@@ -96,17 +96,12 @@ h1 {
 
 .perfil{
     border-radius: 50%;
-    width: fit-content;
-    height: fit-content;
-}
+    }
 .yo {
-    margin-left: 10px;
-    justify-content: baseline;
     font-family: 'Playfair Display', serif;
 }
 .video
 {
-    margin-top: 50px;
     width: 400px;
     height: 400px;
 }
@@ -114,6 +109,7 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
     overflow: scroll;
+    margin-bottom: 300px;
 }
 .elemento {
     flex: 1 0 auto;
