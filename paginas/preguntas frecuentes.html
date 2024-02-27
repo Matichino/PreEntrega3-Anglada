@@ -14,7 +14,7 @@
     <!--Header-->
     <header>
         <div class="logo-container">
-            <img src="../assets/img/logo.jpeg" alt="Logo de mi sito web" class="logo">
+            <img src="../assets/img/logo.jpeg" alt="Logo de mi sito web" class="logo" class="img-fluid">
         </div>
         <h1>Preguntame lo que quieras, estoy dispuesto a ayudarte</h1>
         <nav class="barra">
@@ -29,40 +29,166 @@
         
     </header>
     <!--Fin Header-->
+    <div class="accordion w-100" id="basicAccordion">
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne">
+            Question #1
+            </button>
+        </h2>
+        <div id="basicAccordionCollapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-mdb-parent="#basicAccordion" style="">
+            <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default,
+            until the collapse plugin adds the appropriate classes that we use to style each
+            element. These classes control the overall appearance, as well as the showing and
+            hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+            our default variables. It's also worth noting that just about any HTML can go within
+            the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#basicAccordionCollapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Question #2
+            </button>
+        </h2>
+        <div id="basicAccordionCollapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-mdb-parent="#basicAccordion" style="">
+            <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default,
+            until the collapse plugin adds the appropriate classes that we use to style each
+            element. These classes control the overall appearance, as well as the showing and
+            hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+            our default variables. It's also worth noting that just about any HTML can go within
+            the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Question #3
+            </button>
+        </h2>
+        <div id="basicAccordionCollapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-mdb-parent="#basicAccordion" style="">
+            <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default,
+            until the collapse plugin adds the appropriate classes that we use to style each
+            element. These classes control the overall appearance, as well as the showing and
+            hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+            our default variables. It's also worth noting that just about any HTML can go within
+            the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+        </div>
+        </div>
+    </div>
 
     <!-- Zona media Pagina -->
-    <h2 >
-        <img src="../assets/img/pregunta.jpg" alt="pregunta">
-    </h2>
-    <!-- MENU DESPLEGABLE CON PREGUNTA Y LA RESPUESTA -->
-    <!-- con estilos propios -->
-    <h3> Preguntas y Respuestas</h3>
-            <li>donde me ubico y que jurisdiccion abarco</li> 
-                    <p>Me ubico en Cordoba Capital,ejerzo en esta provincia unicamente</p>
-            <li>donde me ubico y que jurisdiccion abarco</li> 
-                    <p>Me ubico en Cordoba Capital,ejerzo en esta provincia unicamente</p>
-            <li>cuanto puede demorar mi juicio</li>
-                <p>depende del tipo de juicio y de que instancia este</p>
-            <li>cuales son los costos de la consulta</li>
-                <p>lo que este determinado en la pagina del colegio de abogados de Cordoba</p>
-            <li> de que forma se puede abonar</li>
-                <p>todos los medios de pago disponibles en el apartado consulta express</p>
-            <li>haces caso pro-bono (gratis)</li>
-                <p>si, dependiendo el caso y el valor final que tenga</p>
-            <li>es posible arreglar los asuntos fuera de tribunales</li>
-                <p> si es posible, siempre y cuando la contraparte lo quiera</p>
-            <li> que pasa si cambio de opinion o necesito retirarme del caso</li>
-                <p>debera abonar todos los gastos incurridos hasta el momento y puedo pedir regulacion de honorarios en el juicio por las tareas realizadas</p>
+    <section class="interrogacion">
+        <h2 >
+            <img src="../assets/img/pregunta.jpg" alt="pregunta">
+        </h2>
+        <!-- MENU DESPLEGABLE CON PREGUNTA Y LA RESPUESTA -->
+        <!-- con estilos propios -->
+        <h3> Preguntas y Respuestas </h3>
+        <h4 class="yo">(hacer click para saber mas)</h4>
+        <div class="Respuestas">
+                <p class="yo">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        donde me ubico y que jurisdiccion abarco...
+                    </a>
+                </p class="yo">
+                <div class="collapse" id="collapseExample">
+                    <div class="">
+                        Me ubico en Cordoba Capital,ejerzo en esta provincia unicamente.
+                    </div>
+                </div>
+                <p class="yo">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        cuanto puede demorar mi juicio...
+                    </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="">
+                        depende del tipo de juicio y de que instancia este. 
+                    </div>
+                </div>
+                <p class="yo">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        cuales son los costos de la consulta...
+                    </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="">
+                        lo que este determinado en la pagina del colegio de abogados de Cordoba y codigos pertinentes
+                    </div>
+                </div>
+                <p class="yo">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        de que forma se puede abonar...
+                    </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="">
+                        todos los medios de pago disponibles en el apartado consulta express
+                    </div>
+                </div>
+                <p class="yo">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        haces caso pro-bono (gratis)...
+                    </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="">
+                        si, dependiendo el caso y el valor final que tenga.
+                    </div>
+                </div>
+                <p class="yo">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        es posible arreglar los asuntos fuera de tribunales...
+                    </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="">
+                        si es posible, siempre y cuando la contraparte lo quiera.
+                    </div>
+                </div>
+                <p class="yo">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        que pasa si cambio de opinion o necesito retirarme del caso...
+                    </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="">
+                        debera abonar todos los gastos incurridos hasta el momento y puedo pedir regulacion de honorarios en el juicio por las tareas realizadas
+                    </div>
+                </div>
+
+        </div>
+</section>
+        <!-- siguiente titulo -->
+        <h5>Si te sirvieron las preguntas frecuentes, Valorame! tu opinion me interesa</h5>
+        <!-- insertar tabla de valoracion con puntaje -->
+        <div class="valoracion">
+            <input id="radio1" type="radio" name="estrellas" value="5"><!--
+            --><label for="radio1">★</label><!--
+            --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+            --><label for="radio2">★</label><!--
+            --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+            --><label for="radio3">★</label><!--
+            --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+            --><label for="radio4">★</label><!--
+            --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+            --><label for="radio5">★</label>
+        </div>
 
 
-    <!-- siguiente titulo -->
-    <h4>Te sirvieron las preguntas frecuentes, Valorame tu opinion me interesa</h4>
-    <!-- insertar tabla de valoracion con puntaje -->
-        <table>
-            <tr>valoracion</tr>
-        </table>
-
-    
 
     <!-- Fin Zona media Pagina -->
 
@@ -70,7 +196,7 @@
     <!--Footer-->
     <!--Redes Sociales-->
     <!--Terminos Y Condiciones-->
-    <footer>
+<footer>
     
         <div class="redes">
             <p class="terminos" >Todos los derechos de propiedad intelectual y derechos de autor relacionados con el contenido de este sitio web están reservados de acuerdo con la legislación de derechos de autor de la República Argentina. Este contenido incluye, pero no se limita a, texto, gráficos, logotipos, imágenes y otros elementos multimedia. Cualquier uso no autorizado, incluida la reproducción, distribución o modificación, sin el consentimiento previo por escrito del titular de los derechos de autor, está estrictamente prohibido y puede estar sujeto a acciones legales. Todos los nombres de productos, logotipos y marcas son propiedad de sus respectivos dueños. </p>
@@ -83,8 +209,8 @@
         </div>
 
 
-    </footer>
+</footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

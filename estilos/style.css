@@ -52,6 +52,9 @@ header {
 .barra{
     float: right;
     }
+
+
+    /*titulo*/
 h1 {
     font-family:'Kanit', sans-serif ;
     margin: 0; /* Eliminar el margen predeterminado del título */
@@ -71,6 +74,7 @@ h1 {
 .barra a:hover{
     color:rgb(9, 188, 229) ;
 }
+
 /* FINAL HEADER */
 
 
@@ -93,13 +97,15 @@ h1 {
     width:50%;
 
 }
-
+/*foto mia*/
 .perfil{
     border-radius: 50%;
     }
+    /*parrafo yo*/
 .yo {
     font-family: 'Playfair Display', serif;
 }
+
 .video
 {
     width: 300px;
@@ -141,12 +147,14 @@ h1 {
     height: auto;
 
 }
+/*footer*/
 .terminos{
 font-family:'Open Sans', sans-serif;
 font-size: 9px;
 color: rgb(14, 105, 180);
 
 }
+/*conctacto bootstrap*/
 .card-body{
     background-image: url(../assets/img/fondo2.jpg);
     background-size: cover;
@@ -163,4 +171,45 @@ color: rgb(14, 105, 180);
 }
 .text-muted {
     color: rgb(255, 255, 255);
+}
+.respuestas{
+    background-color: transparent;
+}
+
+.btn{
+    background-color: transparent;
+    border:none
+}
+.interrogacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;;
+}
+
+
+/*valoracion final*/
+.valoracion {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.valoracion input {
+    position: absolute;
+    top: -100px;
+}
+
+
+.valoracion label {
+    float: right;
+    color: #c1b8b8;
+    font-size: 30px; 
+}
+
+.valoracion label:hover,
+.valoracion label:hover ~ label,
+.valoracion input:checked ~ label {
+    color: #ffff00;
 }
