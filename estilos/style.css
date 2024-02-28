@@ -77,12 +77,13 @@ h1 {
 
 /* FINAL HEADER */
 
-
+/* formato subtitulos */
 .titulo2{
     font-family: 'Open Sans', sans-serif;
     margin-top: 100px;
     text-align: center;
 }
+/* contenidos */
 .content{
     display: flex;
     align-items: end;
@@ -105,7 +106,7 @@ h1 {
 .yo {
     font-family: 'Playfair Display', serif;
 }
-
+/* autovideo index */
 .video
 {
     width: 300px;
@@ -118,6 +119,7 @@ h1 {
     width: 200px;
     height: 200px;
 }
+/* fromato de redes */
 .redes{
     display: flex;
     flex-direction: row;
@@ -180,12 +182,14 @@ color: rgb(14, 105, 180);
     background-color: transparent;
     border:none
 }
+/* imagen interrogacion */
 .interrogacion{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh; 
     margin: 0;;
+    margin-top: 50px;
 }
 
 
@@ -213,7 +217,7 @@ color: rgb(14, 105, 180);
 .valoracion input:checked ~ label {
     color: #ffff00;
 }
-
+/* todos los parrafos */
 .parrafos-contexto{
     display: block;
     font-family: 'Playfair Display', serif;
@@ -223,7 +227,7 @@ color: rgb(14, 105, 180);
     
 
 }
-
+/* valor consulta */
 .display-3 {
     text-align: center;
     margin-top: 50px; 
