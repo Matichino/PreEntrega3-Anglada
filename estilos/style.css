@@ -102,10 +102,11 @@ h1 {
 .perfil{
     border-radius: 50%;
     }
-    /*parrafo yo*/
+/*parrafo yo*/
 .yo {
-    font-family: 'Playfair Display', serif;
-}
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    }
 /* autovideo index */
 .video
 {
