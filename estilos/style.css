@@ -1,206 +1,224 @@
 /* Variables */
 /* Fuentes y Modelos */
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Open+Sans:ital,wght@1,500&family=Playfair+Display:ital,wght@1,500&display=swap");
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  color: white;
-  font-family: Arial, sans-serif; /* Tipo de fuente */
-  margin: 0;
-  padding: 0;
-  background-image: url(../assets/img/fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* COMIENZO HEADER */
-  /* FINAL HEADER */
+    color: white;
+    font-family: Arial, sans-serif;
+    /* Tipo de fuente */
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* COMIENZO HEADER */
+    /* FINAL HEADER */
 }
+
 body header {
-  background-color: black;
-  font-family: "Kanit", sans-serif;
-  color: white;
-  margin-bottom: 100px;
-  /* Navbar */
+    background-color: black;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    margin-bottom: 100px;
+    /* Navbar */
 }
+
 body header .logo {
-  float: left;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
+
 body header .barra {
-  float: right;
+    float: right;
 }
+
 body header .barra ul li {
-  list-style: none;
-  display: inline-block;
+    list-style: none;
+    display: inline-block;
 }
+
 body header .barra ul li a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
+
 body header .barra ul li a:hover {
-  color: rgb(9, 188, 229);
+    color: rgb(9, 188, 229);
 }
 
 /* Formato subtitulos */
 .titulo2 {
-  font-family: "Open Sans", sans-serif;
-  margin-top: 100px;
-  text-align: center;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 100px;
+    text-align: center;
 }
 
 /* Contenidos */
 .content {
-  display: flex;
-  align-items: end;
-  justify-content: center;
-  height: 100%;
-  align-items: center;
-  margin-left: 50px;
-  padding: 5px;
-  text-align: center;
-  display: flex;
-  color: white;
-  width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin-left: 50px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    color: white;
+    width: 50%;
 }
 
 /* Foto mia */
 .perfil {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 /* Parrafo yo */
 .yo {
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
 }
 
 /* Autovideo index */
 .video {
-  width: 300px;
-  height: 300px;
+    width: 300px;
+    height: 300px;
 }
 
 .elemento {
-  flex: 1 0 auto;
-  margin: 0 30px;
-  width: 200px;
-  height: 200px;
+    flex: 1 0 auto;
+    margin: 0 30px;
+    width: 200px;
+    height: 200px;
 }
 
 /* Formato de redes */
 .redes {
-  display: flex;
-  flex-direction: row;
-  -ms-flex-align: center;
-  text-align: center;
-  line-height: 20px;
-  font-size: 30px;
-  margin: 10px;
-  color: white;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: center;
+    text-align: center;
+    line-height: 20px;
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+    justify-content: center;
 }
 
 .content2 {
-  display: flex;
-  align-items: center;
-  width: auto;
-  height: auto;
-  justify-content: baseline;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    justify-content: baseline;
 }
 
 .Contactodirecto {
-  display: block;
+    display: block;
 }
 
 .respuesta {
-  width: auto;
-  height: auto;
+    width: auto;
+    height: auto;
 }
 
 /* Footer */
 .terminos {
-  font-family: "Open Sans", sans-serif;
-  font-size: 9px;
-  color: rgb(14, 105, 180);
+    font-family: "Open Sans", sans-serif;
+    font-size: 9px;
+    color: rgb(14, 105, 180);
 }
 
 /* Contacto bootstrap */
 .card-body {
-  background-image: url(../assets/img/fondo2.jpg);
-  background-size: cover;
+    background-image: url(../assets/img/fondo2.jpg);
+    background-size: cover;
 }
+
 .card-body .card-text {
-  font-family: "Open Sans", sans-serif;
-  color: white;
+    font-family: "Open Sans", sans-serif;
+    color: white;
 }
+
 .card-body .card-title {
-  font-family: "Playfair Display", serif;
-  color: white;
+    font-family: "Playfair Display", serif;
+    color: white;
 }
+
 .card-body .text-muted {
-  color: white;
+    color: white;
 }
+
 .card-body .respuestas {
-  background-color: transparent;
+    background-color: transparent;
 }
+
 .card-body .btn {
-  background-color: transparent;
-  border: none;
+    background-color: transparent;
+    border: none;
 }
 
 /* Imagen interrogacion */
 .interrogacion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    margin-top: 50px;
 }
 
 /* Valoracion final */
 .valoracion {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
 }
+
 .valoracion input {
-  position: absolute;
-  top: -100px;
+    position: absolute;
+    top: -100px;
 }
+
 .valoracion label {
-  float: right;
-  color: #c1b8b8;
-  font-size: 30px;
+    float: right;
+    color: #c1b8b8;
+    font-size: 30px;
 }
-.valoracion label:hover, .valoracion label:hover ~ label, input:checked ~ .valoracion label {
-  color: #ffff00;
+
+.valoracion label:hover,
+.valoracion label:hover~label,
+input:checked~.valoracion label {
+    color: #ffff00;
 }
 
 /* Todos los parrafos */
 .parrafos-contexto {
-  display: block;
-  font-family: "Playfair Display", serif;
-  color: white;
-  font-size: 15px;
-  justify-content: center;
+    display: block;
+    font-family: "Playfair Display", serif;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
 }
 
 /* Valor consulta */
 .display-3 {
-  text-align: center;
-  margin-top: 50px;
-  color: white;
-  font-size: 30px;
-  font-family: "Kanit", sans-serif;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 /*# sourceMappingURL=style.css.map */
