@@ -22,8 +22,10 @@ body {
 
     /* COMIENZO HEADER */
 }
+.active {
+    color: rgb(9, 188, 229);
+}
 header {
-    overflow: hidden;
     background-color: black;
     font-family:'Kanit', sans-serif;
     color: white;
