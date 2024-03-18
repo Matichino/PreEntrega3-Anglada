@@ -1,15 +1,6 @@
 /* Variables */
-$font-kanit: 'Kanit', sans-serif;
-$font-open-sans: 'Open Sans', sans-serif;
-$font-playfair-display: 'Playfair Display', serif;
-$color-primary: rgb(9, 188, 229);
-$color-white: white;
-$color-black: black;
-$color-gray-light: #c1b8b8;
-$color-blue: rgb(14, 105, 180);
-
 /* Fuentes y Modelos */
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Open+Sans:ital,wght@1,500&family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Open+Sans:ital,wght@1,500&family=Playfair+Display:ital,wght@1,500&display=swap");
 
 * {
     margin: 0;
@@ -18,7 +9,7 @@ $color-blue: rgb(14, 105, 180);
 }
 
 body {
-    color: $color-white;
+    color: white;
     font-family: Arial, sans-serif;
     /* Tipo de fuente */
     margin: 0;
@@ -26,48 +17,47 @@ body {
     background-image: url(../assets/img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
     /* COMIENZO HEADER */
-    header {
-        background-color: $color-black;
-        font-family: $font-kanit;
-        color: $color-white;
-        margin-bottom: 100px;
-
-        /* Navbar */
-        .logo {
-            float: left;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-
-        .barra {
-            float: right;
-
-            ul li {
-                list-style: none;
-                display: inline-block;
-
-                a {
-                    color: $color-white;
-                    text-decoration: none;
-
-                    &:hover {
-                        color: $color-primary;
-                    }
-                }
-            }
-        }
-    }
-
     /* FINAL HEADER */
+}
+
+body header {
+    background-color: black;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    margin-bottom: 100px;
+    /* Navbar */
+}
+
+body header .logo {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+body header .barra {
+    float: right;
+}
+
+body header .barra ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+body header .barra ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+body header .barra ul li a:hover {
+    color: rgb(9, 188, 229);
 }
 
 /* Formato subtitulos */
 .titulo2 {
-    font-family: $font-open-sans;
+    font-family: "Open Sans", sans-serif;
     margin-top: 100px;
     text-align: center;
 }
@@ -83,7 +73,7 @@ body {
     padding: 5px;
     text-align: center;
     display: flex;
-    color: $color-white;
+    color: white;
     width: 50%;
 }
 
@@ -94,7 +84,7 @@ body {
 
 /* Parrafo yo */
 .yo {
-    font-family: $font-open-sans;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
 }
 
@@ -120,7 +110,7 @@ body {
     line-height: 20px;
     font-size: 30px;
     margin: 10px;
-    color: $color-white;
+    color: white;
     justify-content: center;
 }
 
@@ -143,37 +133,43 @@ body {
 
 /* Footer */
 .terminos {
-    font-family: $font-open-sans;
-    font-size: 9px;
-    color: $color-blue;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20x;
+    color: rgb(14, 105, 180);
 }
 
 /* Contacto bootstrap */
-.card-body {
-    background-image: url(../assets/img/fondo2.jpg);
-    background-size: cover;
+.cards {
+    display: grid;
+    align-items: center;
+    justify-content: center;
 
-    .card-text {
-        font-family: $font-open-sans;
-        color: $color-white;
-    }
+    .card-body {
+        background-image: url(../assets/img/fondo2.jpg);
+        background-size: cover;
 
-    .card-title {
-        font-family: $font-playfair-display;
-        color: $color-white;
-    }
+        .card-text {
+            font-family: "Open Sans", sans-serif;
+            color: white;
+        }
 
-    .text-muted {
-        color: $color-white;
-    }
+        .card-title {
+            font-family: "Playfair Display", serif;
+            color: white;
+        }
 
-    .respuestas {
-        background-color: transparent;
-    }
+        .text-muted {
+            color: white;
+        }
 
-    .btn {
-        background-color: transparent;
-        border: none;
+        .respuestas {
+            background-color: transparent;
+        }
+
+        .btn {
+            background-color: transparent;
+            border: none;
+        }
     }
 }
 
@@ -200,7 +196,7 @@ body {
 
     label {
         float: right;
-        color: $color-gray-light;
+        color: #c1b8b8;
         font-size: 30px;
 
         &:hover,
@@ -214,8 +210,8 @@ body {
 /* Todos los parrafos */
 .parrafos-contexto {
     display: block;
-    font-family: $font-playfair-display;
-    color: $color-white;
+    font-family: "Playfair Display", serif;
+    color: white;
     font-size: 15px;
     justify-content: center;
 }
@@ -224,9 +220,13 @@ body {
 .display-3 {
     text-align: center;
     margin-top: 50px;
-    color: $color-white;
+    color: white;
     font-size: 30px;
-    font-family: $font-kanit;
+    font-family: "Kanit", sans-serif;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.oficinaservicio {
+    background-image: url(../assets/img/fondo2.jpg);
 }

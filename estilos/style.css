@@ -134,11 +134,16 @@ body header .barra ul li a:hover {
 /* Footer */
 .terminos {
     font-family: "Open Sans", sans-serif;
-    font-size: 9px;
+    font-size: 20x;
     color: rgb(14, 105, 180);
 }
 
 /* Contacto bootstrap */
+.cards {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    }
 .card-body {
     background-image: url(../assets/img/fondo2.jpg);
     background-size: cover;
@@ -221,4 +226,7 @@ input:checked~.valoracion label {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.oficinaservicio{
+    background-image: url(../assets/img/fondo2.jpg) ;
+}
 /*# sourceMappingURL=style.css.map */
