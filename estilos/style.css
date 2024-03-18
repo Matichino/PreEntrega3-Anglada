@@ -1,240 +1,245 @@
+@charset "UTF-8";
 /* Fuentes y Modelos*/
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Open+Sans:ital,wght@1,500&family=Playfair+Display:ital,wght@1,500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Open+Sans:ital,wght@1,500&family=Playfair+Display:ital,wght@1,500&display=swap");
 /*font-family: 'Kanit', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Playfair Display', serif;*/
 /*Fin Fuentes y Modelos*/
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-    color: white; /* Color de texto blanco */
-    font-family: Arial, sans-serif; /* Tipo de fuente */
-    margin: 0;
-    padding: 0;
-    background-image: url(../assets/img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  color: white; /* Color de texto blanco */
+  font-family: Arial, sans-serif; /* Tipo de fuente */
+  margin: 0;
+  padding: 0;
+  background-image: url(../assets/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* COMIENZO HEADER */
+}
 
-    /* COMIENZO HEADER */
-}
 .active {
-    color: rgb(9, 188, 229);
+  color: rgb(9, 188, 229);
 }
+
 header {
-    background-color: black;
-    font-family:'Kanit', sans-serif;
-    color: white;
-    margin-bottom: 100px;
+  background-color: black;
+  font-family: "Kanit", sans-serif;
+  color: white;
+  margin-bottom: 100px;
 }
 
 /*navbar */
-
 .logo {
-    float: left;
-    width: 100%; /* Ancho del logo para que se ajuste al contenedor */
-    height: 100%; /* Altura del logo para que se ajuste al contenedor */
-    border-radius: 50%; /* Hacer el logo redondo */
-    object-fit: cover; /* Ajustar el tamaño del logo sin deformar */
-    width: 150px;
-    height: 150px;
+  float: left;
+  width: 100%; /* Ancho del logo para que se ajuste al contenedor */
+  height: 100%; /* Altura del logo para que se ajuste al contenedor */
+  border-radius: 50%; /* Hacer el logo redondo */
+  object-fit: cover; /* Ajustar el tamaño del logo sin deformar */
+  width: 150px;
+  height: 150px;
 }
-.barra{
-    float: right;
-    }
 
+.barra {
+  float: right;
+}
 
-    /*titulo*/
+/*titulo*/
 h1 {
-    font-family:'Kanit', sans-serif ;
-    font-size: large;
-    
-
-}
-.barra ul li{
-    list-style: none;
-    display: inline-block;
+  font-family: "Kanit", sans-serif;
+  font-size: large;
 }
 
-.barra a{
-    color: white;
-    text-decoration: none;
+.barra ul li {
+  list-style: none;
+  display: inline-block;
 }
-.barra a:hover{
-    color:rgb(9, 188, 229) ;
+
+.barra a {
+  color: white;
+  text-decoration: none;
+}
+
+.barra a:hover {
+  color: rgb(9, 188, 229);
 }
 
 /* FINAL HEADER */
-
 /* formato subtitulos */
-.titulo2{
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 100px;
-    text-align: center;
+.titulo2 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 100px;
+  text-align: center;
 }
-/* contenidos */
-.content{
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    height:  100%;
-    align-items: center;
-    margin-left:50px;
-    padding: 5px;
-    text-align: center;
-    display: flex;
-    color: white;
-    width:50%;
 
+/* contenidos */
+.content {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  margin-left: 50px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  color: white;
+  width: 50%;
 }
+
 /*foto mia*/
-.perfil{
-    border-radius: 50%;
-    }
+.perfil {
+  border-radius: 50%;
+}
+
 /*parrafo yo*/
 .yo {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    }
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
 /* autovideo index */
-.video
-{
-    width: 300px;
-    height: 300px;
+.video {
+  width: 300px;
+  height: 300px;
 }
 
 .elemento {
-    flex: 1 0 auto;
-    margin: 0 30px;
-    width: 200px;
-    height: 200px;
+  flex: 1 0 auto;
+  margin: 0 30px;
+  width: 200px;
+  height: 200px;
 }
+
 /* fromato de redes */
-.redes{
-    display: flex;
-    flex-direction: row;
-    -ms-flex-align: center;
-    text-align: center;
-    line-height: 20px;
-    font-size: 30px;
-    margin: 10px;
-    color: white;
-    justify-content: center;
-    
+.redes {
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: center;
+  text-align: center;
+  line-height: 20px;
+  font-size: 30px;
+  margin: 10px;
+  color: white;
+  justify-content: center;
 }
-.content2{
-    display: flex;
-    align-items: center;
-    width: auto;
-    height: auto;
-    justify-content: baseline;
-    
-}
-.Contactodirecto{
-    display: block;
-    
-}
-.respuesta{
-    width: auto;
-    height: auto;
 
+.content2 {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: auto;
+  justify-content: baseline;
 }
+
+.Contactodirecto {
+  display: block;
+}
+
+.respuesta {
+  width: auto;
+  height: auto;
+}
+
 /*footer*/
-.terminos{
-font-family:'Open Sans', sans-serif;
-font-size: 9px;
-color: rgb(14, 105, 180);
-
+.terminos {
+  font-family: "Open Sans", sans-serif;
+  font-size: 9px;
+  color: rgb(14, 105, 180);
 }
+
 /*conctacto bootstrap*/
-.card-body{
-    background-image: url(../assets/img/fondo2.jpg);
-    background-size: cover;
-    
+.card-body {
+  background-image: url(../assets/img/fondo2.jpg);
+  background-size: cover;
 }
-.card-text{
-    font-family:'Open Sans', sans-serif;
-    color: rgb(255, 255, 255);
-    
+
+.card-text {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(255, 255, 255);
 }
-.card-title{
-    font-family: 'Playfair Display', serif;
-    color: rgb(253, 253, 253);
+
+.card-title {
+  font-family: "Playfair Display", serif;
+  color: rgb(253, 253, 253);
 }
+
 .text-muted {
-    color: rgb(255, 255, 255);
-}
-.respuestas{
-    background-color: transparent;
+  color: rgb(255, 255, 255);
 }
 
-.btn{
-    background-color: transparent;
-    border:none
+.respuestas {
+  background-color: transparent;
 }
+
+.btn {
+  background-color: transparent;
+  border: none;
+}
+
 /* imagen interrogacion */
-.interrogacion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh; 
-    margin: 0;;
-    margin-top: 50px;
+.interrogacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  margin-top: 50px;
 }
-
 
 /*valoracion final*/
 .valoracion {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
 }
 
 .valoracion input {
-    position: absolute;
-    top: -100px;
+  position: absolute;
+  top: -100px;
 }
 
-
 .valoracion label {
-    float: right;
-    color: #c1b8b8;
-    font-size: 30px; 
+  float: right;
+  color: #c1b8b8;
+  font-size: 30px;
 }
 
 .valoracion label:hover,
 .valoracion label:hover ~ label,
 .valoracion input:checked ~ label {
-    color: #ffff00;
+  color: #ffff00;
 }
-/* todos los parrafos */
-.parrafos-contexto{
-    display: block;
-    font-family: 'Playfair Display', serif;
-    color: white;
-    font-size: 15px;
-    justify-content: center;
-    
 
+/* todos los parrafos */
+.parrafos-contexto {
+  display: block;
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 15px;
+  justify-content: center;
 }
+
 /* valor consulta */
 .display-3 {
-    text-align: center;
-    margin-top: 50px; 
+  text-align: center;
+  margin-top: 50px;
 }
 
 .display-3 {
-    color: #ffffff;
-    font-size: 30px;
-    font-family:'Kanit', sans-serif ;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Kanit", sans-serif;
 }
 
 .display-3 {
-    border-radius: 10px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-    margin-top: 20px; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
 }
+
+/*# sourceMappingURL=style.css.map */

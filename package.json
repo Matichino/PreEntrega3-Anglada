@@ -1,0 +1,12 @@
+{
+  "name": "pre-entregas",
+  "version": "1.0.0",
+  "description": "pre entrega partiendo de la base de las correciones de la entrega 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
